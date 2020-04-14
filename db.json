@@ -1,0 +1,39 @@
+{
+    "routes": {
+        "pages": [
+            {
+                "title": "homepage",
+                "url": "/homepage",
+                "component": "Homepage",
+                "json_page_path": "http://localhost:3030/index"
+            },
+            {
+                "title": "faq",
+                "url": "/faq",
+                "component": "Faq",
+                "json_page_path": "http://localhost:3030/faq"
+            },
+            {
+                "title": "mon compte",
+                "url": "/moncompte",
+                "component": "Moncompte",
+                "json_page_path": "http://localhost:3030/moncompte"
+            }
+        ],
+        "menu": {
+            "header": [
+                {
+                    "item": "index",
+                    "url": "/homepage"
+                },
+                {
+                    "item": "faq",
+                    "url": "/faq"
+                }
+            ],
+            "footer": [
+                "faq"
+            ]
+        }
+    }
+}
